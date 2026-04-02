@@ -112,57 +112,7 @@ This multi-page report provides several key insights into the customer churn dat
 
     Family Stability: The Demographics chart indicates that customers with Partners (~20% Churn) and Dependents (~16% Churn) are far more stable and less likely to switch providers compared to Single customers
 
-    # ClimateScope: Visualizing Global Weather Trends and Extreme Events
-
-## Problem Statement
-
-As climate data grows in volume and complexity, there is a critical need for accessible platforms that translate raw numbers into actionable insights. Standard spreadsheets are no longer sufficient for spotting crucial environmental patterns.
-
-The primary objective of this project is to analyze and visually represent global weather patterns using the comprehensive Global Weather Repository dataset. This project aims to uncover seasonal trends, regional variations, and extreme weather events through an interactive dashboard, providing a data-driven platform that supports climate awareness, informed decision-making, and further research into global weather dynamics.
-
-## Key Questions Analyzed
-To address the core objective, this dashboard specifically analyzes the following critical questions:
-
-1. **Global Extremes** : 
-    What are the absolute maximum and minimum temperatures, and which cities/countries experience them?
-
-2. **Seasonal Trends** :
-     How do temperature, humidity, and wind speed fluctuate across different months and quarters globally?
-
-3.  **Precipitation Dynamics** :
-     Which regions are most susceptible to heavy rainfall and severe wind velocities?
-
-4. **Risk & Anomaly Tracking** :
-     How frequent are extreme weather events (heatwaves, heavy rain, high winds), and which countries fall into the "High Risk" climate category?
-
-# Dashboard Snapshot (Power BI Desktop)
-
-![Global Event Dashboard](https://github.com/user-attachments/assets/6fe15c26-2b8e-4d3b-a49b-1e843f5f27b5)
-## Steps Followed
-- Step 1: Downloaded the Global Weather Repository dataset from Kaggle via the Kaggle API.
-
-- Step 2: Set up the Python environment and loaded the dataset using pandas to inspect the structure, data types, and key variables (temperature, humidity, precipitation, etc.).
-
-- Step 3: Performed Data Cleaning. Identified missing values and anomalies. Handled inconsistent entries and dropped nulls where necessary to ensure data accuracy.
-
-- Step 4: Data Transformation. Aggregated the daily weather data into monthly and quarterly averages to improve processing efficiency and visualize long-term trends smoothly.
-
-- Step 5: Conducted core statistical analysis to understand distributions, variable correlations, and pinpoint extreme weather events.
-
-- Step 6: Designed the dashboard layout and selected appropriate visualization types (Choropleth maps for geography, Line charts for time-series, Bar charts for comparisons).
-
-- Step 7: Built the interactive visualizations using Plotly. Created charts for Temperature Trends, Precipitation by Country, and a global Risk Category map.
-
-- Step 8: Deployed the final interactive dashboard using Streamlit, integrating user controls like date sliders, country drop-downs, and city filters for dynamic data exploration.
-
-# ClimateScope: Visualizing Global Weather Trends and Extreme Events
-
-## Problem Statement
-
-As climate data grows in volume and complexity, there is a critical need for accessible platforms that translate raw numbers into actionable insights. Standard spreadsheets are no longer sufficient for spotting crucial environmental patterns.
-
-The primary objective of this project is to analyze and visually represent global weather patterns using the comprehensive Global Weather Repository dataset. This project aims to uncover seasonal trends, regional variations, and extreme weather events through an interactive dashboard, providing a data-driven platform that supports climate awareness, informed decision-making, and further research into global weather dynamics.
-
+ 
 ## Key Questions Analyzed
 To address the core objective, this dashboard specifically analyzes the following critical questions:
 
